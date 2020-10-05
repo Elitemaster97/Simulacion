@@ -28,7 +28,7 @@
 
 Para esta tercer tarea\citep{DRA.P3} se ha estudiado el tema Teoría de colas, el cual es el estudio de las matemáticas que estudia las lineas de espera en un sistema. Para un mejor entendimiento del tema, se ha propuesto una forma de estudio, en donde se toma como experimento saber si un número es, o no un número primos. Como marco de referencia para la obtención de números primos, tenemos que los números primos solo son divisibles entre uno, y sí mismo. Por lo tanto, detener más de un divisor tendremos que el evaluando no seria número primo.  De esta forma se entiende que para saber si un número es primo, se tendrían que evaluar todos los números hasta  \texttt{(n-1)} y determinar si alguno de estos es divisor, por lo tanto, mientras mayor sea el número mayor será el tiempo que tardaremos en saber si es primo.  Una vez entendido el concepto de número primo podremos avanzar ha entender el multiprocesamiento. En la actualidad existen microprocesadores los cuales tienen más de un núcleo,  de tener mas de un núcleos podremos realizar múltiples tareas al mismo tiempo a diferencia de tener solo uno. Por lo tanto, es de suma importancia entender la forma en la que es suministrada la información a estos núcleos para obtener mejor rendimiento en tiempo. De tal forma que no sirve de mucho tener una gran cantidad de núcleos, si no se sabe suministrar la información, ``With great power, comes great responsibility''.- Uncle Ben. Ahora, realizando una simulación de lo ya explicado, podremos ver las diferencias en el tiempo dependiendo  de la distribución de  información.   \\
 
-%jejajo jejo por \citep{DRA.P3}, jaj y luego \citet{DRA.P3}
+
 
 \section{Desarrollo}
 
@@ -121,7 +121,7 @@ for tipo in tiempos:
  \end{lstlisting}
  
   De tal forma que lo último en este código será la impresión de las figuras.
-  Para el desarrollo de esta tarea se utilizaron las siguientes paginas: \citep{DRA.Medicion}, \citep{DRA.Computo}, \citep{DRA.usobasico}.\\ 
+  Para el desarrollo de esta tarea se utilizaron las siguientes paginas: \citep{DRA.Computo}, \citep{DRA.Medicion}, \citep{DRA.usobasico}.\\ 
 
 \section{Conclusión}
 
@@ -206,7 +206,7 @@ Cómo observación se realizó el monitoreo de actividad al momento de la simula
 \end{center}
 \end{figure}
 
-
+Por ultimo, se podrá observar en la Figura \ref{fig:cuadro.2} como aunque son los mismos datos, el orden en el que se entregan los datos es factor en el tiempo que tardará en procesarse. Por otro lado, se podría pensar que a mayor número de núcleos menor seria el tiempo de proceso, sin embargo, en la simulación después del segundo núcleo se tiene una tendencia a subir el tiempo del proceso.  
 
 \begin{figure}[H]
 \begin{center}
