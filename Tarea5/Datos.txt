@@ -1,0 +1,12 @@
+La imagen a porcesar tiene las siguientes caracteristicas:
+
+ Format: JPEG
+ Size: (262, 262)
+ Mode: RGB 
+
+Por lo tanto, para esta imagen se tiene un total de 68644 pixeles.
+
+Esta imagen necesita la siguiente cantidad de pintura, suponiendo que para pintar 1 pixel necesitas 1 litro de pintura:
+ R:25347.557675860884L. 
+ G:25282.94773060009L. 
+ B:18013.494593545012L.
