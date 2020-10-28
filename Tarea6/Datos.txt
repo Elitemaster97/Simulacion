@@ -1,0 +1,40 @@
+----------------- 0.0 -----------------
+Máximo contagio: 74
+El máximo contagio se tuvo en la iteración: 21
+----------------- 0.0 -----------------
+----------------- 0.1 -----------------
+Máximo contagio: 68
+El máximo contagio se tuvo en la iteración: 39
+----------------- 0.1 -----------------
+----------------- 0.2 -----------------
+Máximo contagio: 54
+El máximo contagio se tuvo en la iteración: 34
+----------------- 0.2 -----------------
+----------------- 0.30000000000000004 -----------------
+Máximo contagio: 41
+El máximo contagio se tuvo en la iteración: 29
+----------------- 0.30000000000000004 -----------------
+----------------- 0.4 -----------------
+Máximo contagio: 26
+El máximo contagio se tuvo en la iteración: 37
+----------------- 0.4 -----------------
+----------------- 0.5 -----------------
+Máximo contagio: 30
+El máximo contagio se tuvo en la iteración: 40
+----------------- 0.5 -----------------
+----------------- 0.6000000000000001 -----------------
+Máximo contagio: 31
+El máximo contagio se tuvo en la iteración: 47
+----------------- 0.6000000000000001 -----------------
+----------------- 0.7000000000000001 -----------------
+Máximo contagio: 22
+El máximo contagio se tuvo en la iteracion: 63
+----------------- 0.7000000000000001 -----------------
+----------------- 0.8 -----------------
+Máximo contagio: 14
+El máximo contagio se tuvo en la iteracion: 48
+----------------- 0.8 -----------------
+----------------- 0.9 -----------------
+Máximo contagio: 1
+El máximo contagio se tuvo en la iteracion: 0
+----------------- 0.9 -----------------
