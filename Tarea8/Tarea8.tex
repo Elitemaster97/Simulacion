@@ -15,7 +15,7 @@
 \usepackage{cite}
 %-------------------------- Por si se romple la URL --------------------------
 
-\title{Reporte Tarea 6}
+\title{Reporte Tarea 8}
 \author{Victor Alejandro Oviedo Martínez}
 
 
@@ -24,8 +24,8 @@
 \maketitle
 \hrule
 
-\section{Introduccón}\label{intro}
-Para esta octava tarea\citep{DRA.P8} se ha estudiado el tema modelo de urnas, el cual es aplicado a la simulación de un sistema el cual tiene la función de coalescencia y fragmentación. En esencia, esta simulación tendrá una cantidad total de $n$ partículas, con las cuales formaran un tamaño inicial de $k$ cúmulos. Una vez teniendo los cúmulos se llevara acabo el proceso de fragmentación y coalescencia, en los cuales se dividirá los cúmulos para formar nuevos tamaños de los mismos, y luego volverán a unirse en el proceso de coalescencia. Este proceso podrá ser repetido un valor determinado.\\
+\section{Introducción}\label{intro}
+Para esta octava tarea \citep{DRA.P8} se ha estudiado el tema modelo de urnas, el cual es aplicado a la simulación de un sistema el cual tiene la función de coalescencia y fragmentación. En esencia, esta simulación tendrá una cantidad total de $n$ partículas, con las cuales formaran un tamaño inicial de $k$ cúmulos. Una vez teniendo los cúmulos se llevara acabo el proceso de fragmentación y coalescencia, en los cuales se dividirá los cúmulos para formar nuevos tamaños de los mismos, y luego volverán a unirse en el proceso de coalescencia. Este proceso podrá ser repetido un valor determinado.\\
 
 Una vez determinado el valor de la variable $n$, generamos $k$, los cuales tendrán una distribución normal estándar para luego normalizarlos y convertirlos en enteros positivos que sumen a $n$. Para el proceso de fragmentación se utilizar la función sigmoidal centrada a la variable $c$ la cual es el promedio de los cúmulos iniciales, esto con el fin de fragmentar con mayor probabilidad los cúmulos de mayor tamaño y inversamente a los cúmulos de menor tamaño. En el caso de coalescencia, se utiliza la función exponencial con el fin de agrupar con mayor probabilidad los cúmulos de menor tamaño, y con menor probabilidad los cúmulos de mayor tamaño. Se tiene que en estos dos procesos es donde se utiliza el modelo urnas, ya que al momento de iniciar estos procesos es necesario saber cuántos cúmulos tenemos y la cantidad de partículas que contienen cada uno de ellos. Por lo tanto, se tendrán diferentes `urnas'' para cada diferente cúmulos que contengan la misma cantidad de partículas. De esta forma se podrá tener el control de los diferentes cúmulos y el movimiento de los mismos. De esta forma se lleva  acabo la simulación hasta un número determinado de iteraciones.\\
 
